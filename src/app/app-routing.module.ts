@@ -8,6 +8,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { PagesComponent } from './pages/pages.component';
+import { PromesaComponent } from './pages/promesa/promesa.component';
 
 const routes:Routes=[
 { path:'', component: PagesComponent, children:[
@@ -15,6 +16,7 @@ const routes:Routes=[
 { path: 'contact', component: ContactComponent },
 { path: 'dashboard', component: DashboardComponent },
 { path: 'home', component: HomeComponent },
+{ path: 'promesa', component: PromesaComponent },
 { path: '', pathMatch: 'full', redirectTo: '/home' }
 ]
 },
