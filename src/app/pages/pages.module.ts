@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PromesaComponent } from './promesa/promesa.component';
 import { ObservableComponent } from './observable/observable.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 
@@ -19,7 +20,8 @@ import { ObservableComponent } from './observable/observable.component';
     HomeComponent,
     NotfoundComponent,
     PromesaComponent,
-    ObservableComponent
+    ObservableComponent,
+    UsuariosComponent
   ],
   exports: [
     AboutComponent,

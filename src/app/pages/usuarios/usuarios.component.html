@@ -1,0 +1,12 @@
+  
+<h1 style="text-align:center; padding-bottom: 15px;">Usuarios</h1>
+<section *ngFor="let usuario of usuarios">
+    <div style="margin: 25px;  padding:10px; ">
+        <img style="width: 250px; height: 250" src="https://nestjs-prueba.herokuapp.com/{{usuario.avatar}}" alt="avatar"/>
+        <div>
+            <h5>Nombre: {{usuario.nombre}}</h5>
+            <h5>Apellido: {{usuario.apellido}}</h5>
+            <h5>Edad: {{usuario.edad}}</h5>
+        </div>
+    </div>
+</section>
