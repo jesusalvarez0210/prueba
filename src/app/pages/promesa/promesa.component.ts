@@ -47,7 +47,7 @@ export class PromesaComponent implements OnInit {
      
       fetch('https://nestjs-prueba.herokuapp.com/usuarios')
       .then(res=>res.json())
-      .then(res=>resolve(res.data) )
+      .then(res=>resolve(res) )
     });
     return promesa;
 

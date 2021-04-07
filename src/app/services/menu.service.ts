@@ -5,26 +5,26 @@ import { Menu } from '../interfaces/menu';
   providedIn: 'root'
 })
 export class MenuService {
-  
-  menus: Menu[]=[
+
+  menus: Menu[]= [
     {
-      titulo:"Páginas",
+      titulo: 'Paginas',
       subMenus:[
         {
-          titulo:"Home",
-          url:"/home"
+          titulo: 'Home',
+          url: '/home'
         },
         {
-          titulo:"About",
-          url:"/about"
+          titulo: 'About',
+          url: '/about'
         },
         {
-          titulo:"Dashboard",
-          url:"/dashboard"
+          titulo: 'Dashboard',
+          url: '/dashboard'
         },
         {
-          titulo:"Contact",
-          url:"/contact"
+          titulo: 'Contact',
+          url: '/contact'
         },
         {
           titulo: 'Usuarios',
@@ -32,11 +32,12 @@ export class MenuService {
         }
       ]
     }
-
   ]
-  obtenerMenus():Menu[]{
+
+  obtenerMenus(): Menu[]{
     return this.menus;
   }
 
   constructor() { }
 }
+

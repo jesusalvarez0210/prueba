@@ -21,7 +21,7 @@ export class UsuariosComponent implements OnInit {
   obtenerUsuarios() {
     const promesa = new Promise((resolve, reject) => {
      
-      fetch('https://nestjs-prueba.herokuapp.com/')
+      fetch('https://nestjs-prueba.herokuapp.com/usuarios')
       .then(res=>res.json())
       .then(res=>resolve(res) )
     });
@@ -29,3 +29,4 @@ export class UsuariosComponent implements OnInit {
   }
 
 }
+
